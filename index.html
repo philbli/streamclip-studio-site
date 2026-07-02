@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>StreamClip Studio</title>
+<style>
+  :root {
+    --bg: #1E1B2E; --surface: #2A2540; --primary: #8B5CF6; --primary-hi: #A78BFA;
+    --text: #E8E3F5; --muted: #9D94B8;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; font-family: -apple-system, "Helvetica Neue", Arial, sans-serif;
+    background: var(--bg); color: var(--text); line-height: 1.6;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 48px 20px 80px; }
+  h1 { font-size: 2rem; margin-bottom: 4px; }
+  .tag { color: var(--primary-hi); font-weight: 700; letter-spacing: .04em; font-size: .85rem;
+         text-transform: uppercase; margin-bottom: 24px; }
+  .card { background: var(--surface); border-radius: 16px; padding: 24px 28px; margin: 20px 0; }
+  a { color: var(--primary-hi); }
+  nav.legal { margin-top: 40px; padding-top: 20px; border-top: 1px solid #3D3658;
+              font-size: .95rem; }
+  nav.legal a { margin-right: 24px; font-weight: 600; }
+  footer { margin-top: 40px; color: var(--muted); font-size: .85rem; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="tag">🎬 Persönliches Automatisierungs-Tool</div>
+  <h1>StreamClip Studio</h1>
+  <p>StreamClip Studio ist ein persönliches Desktop-Tool, das aus Twitch-Streams
+     automatisch kurze Video-Clips erstellt (Untertitel, KI-Titel, Zuschnitt) und
+     diese auf den eigenen, vom Betreiber autorisierten Social-Media-Konten
+     veröffentlicht.</p>
+
+  <div class="card">
+    <strong>Was die App tut</strong>
+    <ul>
+      <li>Lädt öffentlich verfügbare Twitch-Clips/-VODs herunter und schneidet sie zu.</li>
+      <li>Transkribiert Sprache lokal (Whisper) und erzeugt optional per KI (Anthropic)
+          einen Titelvorschlag aus dem Transkript.</li>
+      <li>Veröffentlicht das fertige Video über die offiziellen APIs von TikTok,
+          YouTube und Instagram – ausschließlich auf den Konten, die der Betreiber
+          selbst über den jeweiligen offiziellen Login autorisiert hat.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <strong>Betreiber</strong>
+    <p>Diese Integration wird von <a href="https://github.com/philbli" target="_blank"
+       rel="noopener">philbli</a> für den persönlichen, nicht-kommerziellen Betrieb
+       eigener Social-Media-Konten genutzt.</p>
+  </div>
+
+  <nav class="legal">
+    <a href="privacy.html">Privacy Policy (Datenschutz)</a>
+    <a href="terms.html">Terms of Service (Nutzungsbedingungen)</a>
+  </nav>
+  <footer>StreamClip Studio · Zuletzt aktualisiert: Juli 2026</footer>
+</div>
+</body>
+</html>

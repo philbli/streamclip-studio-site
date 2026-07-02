@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy – StreamClip Studio</title>
+<style>
+  :root { --bg:#1E1B2E; --surface:#2A2540; --primary-hi:#A78BFA; --text:#E8E3F5; --muted:#9D94B8; }
+  body { margin:0; font-family:-apple-system,"Helvetica Neue",Arial,sans-serif;
+         background:var(--bg); color:var(--text); line-height:1.7; }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 48px 20px 80px; }
+  h1 { font-size: 1.7rem; } h2 { font-size: 1.15rem; color: var(--primary-hi); margin-top: 32px; }
+  a { color: var(--primary-hi); }
+  .back { display:inline-block; margin-bottom: 24px; }
+  footer { margin-top: 40px; color: var(--muted); font-size: .85rem; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <a class="back" href="index.html">← Zurück</a>
+  <h1>Privacy Policy / Datenschutzerklärung</h1>
+  <p><em>Gilt für die Anwendung „StreamClip Studio" und deren Zugriff auf
+     Drittanbieter-APIs (TikTok, YouTube, Instagram, Twitch, Anthropic).</em></p>
+
+  <h2>Was ist StreamClip Studio?</h2>
+  <p>Ein lokal auf dem Rechner des Betreibers laufendes Desktop-Programm, kein
+     Web-Dienst und keine App für die Öffentlichkeit. Es gibt keine Nutzerkonten,
+     keine Registrierung und keine Nutzung durch Dritte – es wird ausschließlich
+     vom Betreiber selbst bedient.</p>
+
+  <h2>Welche Daten werden verarbeitet?</h2>
+  <ul>
+    <li><strong>Twitch-Inhalte:</strong> öffentlich verfügbare Clips/VOD-Ausschnitte
+        werden heruntergeladen, lokal geschnitten und mit Untertiteln versehen.</li>
+    <li><strong>Audio-Transkript:</strong> wird lokal per Whisper erzeugt. Der reine
+        Text (kein Audio, keine personenbezogenen Daten) wird optional an die
+        Anthropic-API gesendet, um einen Titelvorschlag zu erzeugen.</li>
+    <li><strong>Zugangs-Token:</strong> OAuth-Zugriffstoken für TikTok/YouTube/
+        Instagram werden ausschließlich lokal auf dem Gerät des Betreibers
+        gespeichert, um im Namen des Betreibers auf dessen EIGENEN, selbst
+        autorisierten Konten zu posten. Sie werden an niemanden außer der
+        jeweiligen Plattform selbst übermittelt.</li>
+  </ul>
+
+  <h2>Was wird NICHT gemacht</h2>
+  <ul>
+    <li>Keine Erhebung personenbezogener Daten Dritter.</li>
+    <li>Keine Cookies, kein Tracking, keine Analyse-Tools (kein Webdienst).</li>
+    <li>Keine Weitergabe von Daten an weitere Dritte außer den genannten,
+        offiziellen Plattform-APIs, die für die Kernfunktion nötig sind.</li>
+  </ul>
+
+  <h2>Genutzte Drittanbieter-Dienste</h2>
+  <ul>
+    <li>Twitch (Quelle öffentlicher Clips/VODs)</li>
+    <li>Anthropic API (optional, nur Transkript-Text für Titelvorschläge)</li>
+    <li>TikTok / YouTube / Instagram (offizielle APIs, Veröffentlichung auf den
+        eigenen autorisierten Konten des Betreibers)</li>
+  </ul>
+
+  <h2>Speicherdauer</h2>
+  <p>Erzeugte Videos und Zugangs-Token verbleiben ausschließlich lokal beim
+     Betreiber, bis dieser sie manuell löscht.</p>
+
+  <h2>Kontakt</h2>
+  <p>Bei Fragen zu dieser Datenschutzerklärung: über das GitHub-Profil
+     <a href="https://github.com/philbli" target="_blank" rel="noopener">github.com/philbli</a>.</p>
+
+  <footer>Zuletzt aktualisiert: Juli 2026</footer>
+</div>
+</body>
+</html>
